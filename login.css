@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+    border: 1px solid black;
+    padding: 2%;
+    width: 300px;
+}
+
+.content input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background-color: #45a049;
+}
+
+.content button:active
+{
+    background-color: #58a566;
+}
