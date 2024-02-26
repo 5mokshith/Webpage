@@ -1,8 +1,72 @@
+body{
+    background-color: rgba(128, 128, 128, 0.521);
+}
+
+.navbar
+{
+    position:-webkit-sticky;
+}
+.navbar #Home
+{
+    font-weight: 800;
+}
+
+.navbar ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar select
+{
+    font-size: 20px;
+    border: none;
+    background: none;
+    padding-bottom: 5px;
+}
+
+.navbar{
+height: 70px;
+}
+.navbar ul a{
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    border-radius: 10px;
+}
+
+.navbar select:hover
+{
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.navbar ul a:hover{
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.navbar h2
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 50px;
+}
+
+
+
+
+
+
+
+
+
 main
 {
     padding: 2%;
     margin: 1%;
     border: 1px solid rgba(127, 123, 123, 0.935);
+    height: max-content;
+    background-color: rgba(128, 128, 128, 0.159);
 }
 .container
 {
@@ -10,8 +74,9 @@ main
     grid-template-columns: repeat(4,300px);
     grid-template-rows: repeat(4,300px);
     grid-gap: 40px;
+    grid-auto-flow: dense;
 }
-.container #item1 
+.container .item 
 {
     margin-top: auto;
     width: 250px;
@@ -24,7 +89,7 @@ main
     justify-content: space-around;
 }
 
-.container #item1 img
+.container .item img
 {
     max-width: 100%;
     max-height: 100%;
@@ -33,7 +98,7 @@ main
     background: none;
 }
 
-.container #item1 button
+.container .item button
 {
     height: 30px;
     width: 110px;
@@ -45,23 +110,23 @@ main
 }
 
 
-.container #item1:hover {
+.container .item:hover {
     cursor: pointer;
 }
 
 
-.container #item1 button:hover {
+.container .item button:hover {
     cursor: pointer;
-    background: rgba(255, 166, 0, 0.89); /* Change button background on hover */
+    background: rgba(255, 166, 0, 0.89); 
 }
 
 
-.container #item1 button:active
+.container .item button:active
 {
     background:rgba(255, 166, 0, 0.675);
 }
 
-.container #item1 p{
+.container .item p{
     color: black;
     font-size: 20px;
 }
