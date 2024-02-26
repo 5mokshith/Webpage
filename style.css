@@ -10,7 +10,7 @@ body{
 }
 .navbar #Home
 {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .navbar ul
@@ -125,6 +125,10 @@ main .leftcontent button:hover
 main .leftcontent button:active{
     background: rgba(102, 102, 102, 0.759);
 
+}
+main .leftcontent input{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .footer p
 {
