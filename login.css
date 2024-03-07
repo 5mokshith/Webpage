@@ -2,15 +2,18 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background : linear-gradient(to bottom , rgb(225, 217, 217) , rgb(210, 216, 210))
 }
 
 .navbar
 {
-    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 70px;
 }
 .navbar #Home
 {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .navbar ul
@@ -21,17 +24,7 @@ body {
     text-decoration: none;
     font-size: 20px;
 }
-.navbar select
-{
-    font-size: 20px;
-    border: none;
-    background: none;
-    padding-bottom: 5px;
-}
 
-.navbar{
-height: 70px;
-}
 .navbar ul a{
     text-decoration: none;
     font-size: 23px;
@@ -39,21 +32,14 @@ height: 70px;
     border-radius: 10px;
 }
 
-.navbar select:hover
-{
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
 .navbar ul a:hover{
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 .navbar h2
 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
     padding-right: 50px;
 }
-
 
 main {
     display: flex;
@@ -64,7 +50,9 @@ main {
 
 .content {
     text-align: center;
-    border: 1px solid black;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
     padding: 2%;
     width: 300px;
 }
@@ -73,6 +61,9 @@ main {
     padding: 10px;
     margin-bottom: 20px;
     width: 100%;
+    border: none;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.249);
+    border-radius: 10px;
     box-sizing: border-box;
 }
 
@@ -81,11 +72,12 @@ main {
     background-color: #4CAF50;
     color: white;
     border: none;
+    border-radius: 10px;
     width: 100%;
-    cursor: pointer;
 }
 
 .content button:hover {
+    cursor: pointer;
     background-color: #45a049;
 }
 

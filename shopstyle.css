@@ -4,11 +4,13 @@ body{
 
 .navbar
 {
-    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 70px;
 }
 .navbar #Home
 {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .navbar ul
@@ -19,17 +21,7 @@ body{
     text-decoration: none;
     font-size: 20px;
 }
-.navbar select
-{
-    font-size: 20px;
-    border: none;
-    background: none;
-    padding-bottom: 5px;
-}
 
-.navbar{
-height: 70px;
-}
 .navbar ul a{
     text-decoration: none;
     font-size: 23px;
@@ -37,26 +29,14 @@ height: 70px;
     border-radius: 10px;
 }
 
-.navbar select:hover
-{
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
 .navbar ul a:hover{
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 .navbar h2
 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
     padding-right: 50px;
 }
-
-
-
-
-
-
 
 
 
